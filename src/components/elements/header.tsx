@@ -3,7 +3,6 @@
 import { motion, useMotionValueEvent, useScroll } from 'framer-motion';
 import { useRef, useState } from 'react';
 import Logo from './logo';
-import { ModeToggle } from '../ui/mode-toggle';
 import DesktopNav from './desktop-nav';
 
 const Header = () => {

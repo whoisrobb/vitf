@@ -2,7 +2,6 @@ import { CalendarIcon, FileTextIcon } from "@radix-ui/react-icons";
 import { BellIcon, Share2Icon } from "lucide-react";
 
 import { cn } from "@/lib/utils";
-import { Calendar } from "@/components/ui/calendar";
 import AnimatedBeamMultipleOutputDemo from "./animated-beam-multiple-outputs";
 import AnimatedListComponent from "./animated-list-component";
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
