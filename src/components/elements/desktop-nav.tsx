@@ -34,7 +34,7 @@ const DesktopNav = () => {
             variant="expandIcon"
             Icon={ArrowRightIcon}
             iconPlacement="right"
-            className='rounded-full bg-transparent hover:bg-transparent text-white bg-gradient-to-br from-accent-light/80 to-muted-accent-light/60 border-accent-light border'
+            className='rounded-full bg-transparent hover:bg-transparent text-primary bg-gradient-to-br from-accent-light/80 to-muted-accent-light/60 border-accent-light border'
         >
             Contact
         </Button>
