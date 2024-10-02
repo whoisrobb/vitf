@@ -40,7 +40,7 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
     
-    --accent-light: 277 71% 39%;
+    --accent-light: 202 100% 50%;
     --accent-dark: 255 49% 12%;
   }
   .dark {
@@ -69,7 +69,7 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
 
-    --accent-light: 277 71% 39%;
+    --accent-light: 202 100% 50%;
     --accent-dark: 255 49% 12%;
   }
 }
