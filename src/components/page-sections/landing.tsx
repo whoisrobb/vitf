@@ -1,4 +1,6 @@
-import React from 'react';
+"use client";
+
+import React, { useRef } from 'react';
 import { cn } from "@/lib/utils";
 import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
 import AnimatedShinyText from '../ui/animated-shiny-text';
@@ -6,8 +8,13 @@ import { ArrowRightIcon } from '@radix-ui/react-icons';
 import { Button } from '../ui/button';
 
 const Landing = () => {
+    const homeRef = useRef<HTMLDivElement>(null);
   return (
-    <div className={"h-screen overflow-hidden grid place-items-center"}>      
+    <div
+        ref={homeRef}
+        id='home'
+        className={"h-screen overflow-hidden grid place-items-center"}
+    >      
         <AnimatedGridPattern
             numSquares={30}
             maxOpacity={0.1}
@@ -28,7 +35,7 @@ const Landing = () => {
                 Empowering the Future with Innovative Technology Management Solutions
             </h1>
             <p className="md:w-[80%] text-muted-foreground">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis incidunt iste rem perspiciatis excepturi, eum sit porro aut accusamus molestiae.
+                We empower innovation with AI, data intelligence, and strategic partnerships to drive the future of business and technology.
             </p>
 
             <div className="flex items-center gap-2">

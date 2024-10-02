@@ -1,17 +1,13 @@
 import { HTMLAttributes } from "react";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
+import { cn, scrollToSection } from "@/lib/utils";
 import Image from "next/image";
 
 const Logo = ({ className }: HTMLAttributes<HTMLDivElement>) => {
-  const handleScrollToTop = () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <Link
         href={'/'}
-        onClick={handleScrollToTop}
+        onClick={() => scrollToSection('home')}
     >
         <Image
             src="/vitfusion-logo.png"

@@ -4,6 +4,7 @@ import { motion, useMotionValueEvent, useScroll } from 'framer-motion';
 import { useRef, useState } from 'react';
 import Logo from './logo';
 import DesktopNav from './desktop-nav';
+import MobileNav from './mobile-nav';
 
 const Header = () => {
     const [hidden, setHidden] = useState(false);
@@ -23,7 +24,7 @@ const Header = () => {
 
   return (
     <motion.header
-        className="fixed left-0 right-0 h-20 z-[100] grid grid-cols-3 items-center backdrop-blur-md lg:px-8 md:px-4 px-2"
+        className="fixed left-0 right-0 h-20 z-[100] flex justify-between md:grid md:grid-cols-3 items-center backdrop-blur-md lg:px-8 md:px-4 px-2 shadow-sm"
         variants={{
             visible: { y: 0 },
             hidden: { y: '-100%' }
@@ -34,6 +35,7 @@ const Header = () => {
         <Logo className='w-40 col-span-1' />
 
         <DesktopNav />
+        <MobileNav />
     </motion.header>
   )
 }

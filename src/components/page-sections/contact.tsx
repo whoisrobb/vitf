@@ -1,13 +1,21 @@
-import React from 'react'
+"use client";
+
+import React, { useRef } from 'react'
 import ContactForm from '../elements/contact-form'
 import SectionShell from '../elements/section-shell'
 
 const Contact = () => {
-  return (
+  const contactRef = useRef<HTMLDivElement>(null);
+return (
+  <div
+      className=""
+      ref={contactRef}
+      id='contact'
+  >
     <SectionShell
         shimmerText='Contact'
         title='Reach out to us'
-        subtitle='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi accusantium dignissimos nihil deleniti quaerat sed.'
+        subtitle="Have questions or need assistance? Reach out to our team and let's transform your vision together."
     >
         <div className="min-h-screen flex items-center justify-center">
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
@@ -19,6 +27,7 @@ const Contact = () => {
             </div>
         </div>
     </SectionShell>
+  </div>
   )
 }
 
