@@ -5,11 +5,11 @@ import Lenis from 'lenis';
 import 'lenis/dist/lenis.css';
 import Landing from "@/components/page-sections/landing";
 import Intro from "@/components/page-sections/intro";
-import IntroVideo from "@/components/elements/intro-video";
 import SiteShell from "@/components/elements/site-shell";
 import ServicesBento from "@/components/elements/services-bento";
 import Partners from "@/components/page-sections/partners";
 import Contact from "@/components/page-sections/contact";
+import { HeroVideo } from "@/components/elements/hero-video";
 
 export default function Home() {
   useEffect(() => {
@@ -27,8 +27,8 @@ export default function Home() {
     <div className="">
       <Landing />
 
-      <SiteShell className="flex flex-col gap-60">
-        <IntroVideo />
+      <SiteShell className="flex flex-col md:gap-60 gap-28">
+        <HeroVideo />
         <Intro />
         <ServicesBento />
         <Partners />
