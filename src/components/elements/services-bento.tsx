@@ -8,29 +8,6 @@ import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
 import Marquee from "@/components/ui/marquee";
 import Image from "next/image";
 
-// const files = [
-//   {
-//     name: "bitcoin.pdf",
-//     body: "Bitcoin is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto.",
-//   },
-//   {
-//     name: "finances.xlsx",
-//     body: "A spreadsheet or worksheet is a file made of rows and columns that help sort data, arrange data easily, and calculate numerical data.",
-//   },
-//   {
-//     name: "logo.svg",
-//     body: "Scalable Vector Graphics is an Extensible Markup Language-based vector image format for two-dimensional graphics with support for interactivity and animation.",
-//   },
-//   {
-//     name: "keys.gpg",
-//     body: "GPG keys are used to encrypt and decrypt email, files, directories, and whole disk partitions and to authenticate messages.",
-//   },
-//   {
-//     name: "seed.txt",
-//     body: "A seed phrase, seed recovery phrase or backup seed phrase is a list of words which store all the information needed to recover Bitcoin funds on-chain.",
-//   },
-// ];
-
 const services = [
     {
       name: "AI-Powered Analytics.pdf",
@@ -53,16 +30,10 @@ const services = [
       body: "Leverage VITFusion's expertise in blockchain technology to explore new opportunities in decentralized systems and secure digital transactions.",
     },
 ];
-  
-const features = [
-  {
-    Icon: FileTextIcon,
-    name: "Explore VITFusion Services",
-    description: "Our platform offers a range of AI, blockchain, and data intelligence services to streamline your business.",
-    href: "#",
-    cta: "Learn more",
-    className: "col-span-3 lg:col-span-1",
-    background: (
+
+const ExploreVitf = () => {
+  return (
+    <div className="">
       <Marquee
         pauseOnHover
         className="absolute top-10 [--duration:20s] [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] "
@@ -88,6 +59,22 @@ const features = [
           </figure>
         ))}
       </Marquee>
+    </div>
+  )
+}
+  
+const features = [
+  {
+    Icon: FileTextIcon,
+    name: "Explore VITFusion Services",
+    description: "Our platform offers a range of AI, blockchain, and data intelligence services to streamline your business.",
+    href: "#",
+    cta: "Learn more",
+    className: "col-span-3 lg:col-span-1",
+    background: (
+      <div className="bg-red-600">
+        <ExploreVitf />
+      </div>
     ),
   },
   {
