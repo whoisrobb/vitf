@@ -24,7 +24,7 @@ const MobileNav = () => {
                     <HamburgerMenuIcon />
                 </Button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className='z-[1000]'>
+            <DropdownMenuContent className='z-[1000]' side='left' align='start'>
                 {sections.map((section, index) => (
                     <div
                         className=""
