@@ -26,6 +26,12 @@ export default function Home() {
 
   return (
     <div className="">
+    
+      <div className="absolute inset-0 -z-20">
+        <div className="absolute top-0 -left-40 w-[36rem] h-96 bg-accent-light/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-40 right-0 w-[48rem] h-96 bg-accent-light/5 rounded-full blur-3xl"></div>
+      </div>
+      
       <Landing />
 
       <SiteShell className="flex flex-col md:gap-60 gap-28">
