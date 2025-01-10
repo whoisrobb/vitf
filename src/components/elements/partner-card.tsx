@@ -27,7 +27,7 @@ const PartnerCard = ({ title, description, link, setModal, index }: PartnerCardP
         {/* <div> */}
         <AnimSeparator />
 
-        <div className="grid md:grid-cols-3 grid-cols-1 py-8">
+        <div className="grid md:grid-cols-3 grid-cols-1 py-8 md:space-y-0 space-y-6">
             <h1 className="col-span-2 capitalize md:text-4xl text-2xl font-bold group-hover:transform group-hover:translate-x-[-1rem] transition-all">
                 {title}
             </h1>
