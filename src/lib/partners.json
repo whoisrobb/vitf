@@ -21,9 +21,16 @@
         "color": "#BBACAF"
     },
     {
+        "title": "Everything is Positive (E+)",
+        "description": "Eispositive is a movement promoting positivity and breaking stereotypes, inspiring individuals to embrace authenticity and spread empowering, uplifting messages.",
+        "src": "eplus.png",
+        "link": "https://eispositive.com",
+        "color": "#BBACAF"
+    },
+    {
         "title": "E+ Kids",
         "description": "Empower the next generation of innovators with our AI and VR-based educational programs, designed to ignite curiosity, inspire creativity, and foster a positive growth mindset in children.",
-        "src": "vitfusion-logo.png",
+        "src": "e+kids.png",
         "link": "https://epluskids.org/",
         "color": "#BBACAF"
     },
@@ -32,13 +39,6 @@
         "description": "Develop powerful content-driven business strategies that drive engagement, growth, and value creation by integrating technology and creative storytelling.",
         "src": "icre8.jpg",
         "link": "https://icre8content.com/",
-        "color": "#BBACAF"
-    },
-    {
-        "title": "Yapit",
-        "description": "Enhance communication and collaboration with innovative platforms designed to streamline workflows, making businesses more agile and responsive.",
-        "src": "vitfusion-logo.png",
-        "link": "https://yapit.com/",
         "color": "#BBACAF"
     }
 ]

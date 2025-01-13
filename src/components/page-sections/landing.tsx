@@ -13,7 +13,7 @@ const Landing = () => {
                 loop
                 autoPlay
                 muted
-                className='opacity-10 w-full h-full object-cover'
+                className='dark:opacity-10 opacity-20 w-full h-full object-cover'
             />
         </div>
         
