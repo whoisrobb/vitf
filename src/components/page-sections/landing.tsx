@@ -8,7 +8,7 @@ const Landing = () => {
     <div className="min-h-screen relative overflow-hidden">
         <div className="absolute top-0 bottom-0 left-0 right-0 overflow-hidden">
             <video
-                src='https://9k0i9k2kgj.ufs.sh/f/ba0Al6LG58m3J1gXZAswsQzFvk8t36IWEZXKLypdaS4hPUMC'
+                src='https://9k0i9k2kgj.ufs.sh/f/ba0Al6LG58m3px4SBqHTuemqLjpMsatwS3rIUBPkn2N7JhCf'
                 controls={false}
                 loop
                 autoPlay
