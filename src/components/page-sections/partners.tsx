@@ -8,7 +8,6 @@ import Modal from '../elements/modal';
 
 const Partners = () => {
     const partnersRef = useRef<HTMLDivElement>(null);
-    const [modal, setModal] = useState({ active: false, index: 0 });
 
   return (
     <div
@@ -29,16 +28,9 @@ const Partners = () => {
                         link={partner.link}
                         src={partner.src}
                         key={index}
-                        index={index}
-                        setModal={setModal}
                     />
                 ))}
             </div>
-
-            <Modal
-                modal={modal}
-                data={data}
-            />
         </SectionShell>
     </div>
   )
